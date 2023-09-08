@@ -146,6 +146,8 @@ section {
 .navbar .container {
 	padding-left: 50px;
 	padding-right: 50px;
+	padding-top:0.75rem;
+	padding-bottom: 0.75rem;
 }
 
 
@@ -167,18 +169,16 @@ section {
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
-.navbar-default .navbar-brand {
-	background-image: url(../img/logo.png);
-}
-.navbar-shrink .navbar-brand {
-	background-image: url(../img/logo.png);
-}
-.navbar-transparent .navbar-brand {
-	background-image: url(../img/logo.png);
-}
+.navbar-default .navbar-brand,
+.navbar-shrink .navbar-brand,
+.navbar-transparent .navbar-brand,
 .navbar-inverse .navbar-brand {
-	background-image: url(../img/logo.png);
+    background-image: url(../img/logo.png);
+    background-size: contain; /* Ensures the image fits within the container */
+    background-position: center center; /* Aligns the image to the center horizontally and vertically */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
 }
+
 
 /* Navbar links */
 .navbar-nav > li > a {

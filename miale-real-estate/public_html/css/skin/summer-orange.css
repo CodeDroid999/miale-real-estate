@@ -1,29 +1,29 @@
 
 a, a:hover, a:focus {
-	color: #F28F38;
+	color: #ea7713df;
 }
 
 /* === Navbar === */
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:focus {
-	color: #F28F38;
+	color:c #f87808;
 }
 .navbar-default .navbar-brand:hover {
-	color: #9f3a00;
+	color: #090909;
 }
 .navbar-default, .navbar-default.navbar-fixed-top.navbar-shrink {
-  background-color: #F26B1D;
+  background-color: #ffff;
 }
-.navbar-default .navbar-nav > li > a {
-	color: #fde1d1;
+.navbar-default .navbar-nav > li > a s{
+	color: #ee9003;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li.active > a, .navbar-default .navbar-nav>.active>a {
-	color: #fff !important;
+	color: #fd0404 !important;
 }
 .navbar-default.navbar-fixed-top.navbar-shrink .navbar-nav > li > a {
-	color: #fde1d1;
+	color: #f87808;
 }
 .navbar-default.navbar-shrink .navbar-nav > li > a:hover, .navbar-default.navbar-shrink .navbar-nav > li > a:focus, .navbar-default.navbar-shrink .navbar-nav > li.active > a {
-	color: #fff;
+	color: #f70808;
 }
 .navbar-default.navbar-shrink .navbar-nav > li.active > a {
 	-webkit-box-shadow: inset 0 3px #fff !important;
