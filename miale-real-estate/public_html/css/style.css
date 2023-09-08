@@ -89,7 +89,7 @@ section {
 	width: 100%;
 	height: 100%;
 	z-index: 99999;
-	background: #FFF url(../img/page-loader.gif) center center no-repeat;
+	background: #ffffff url(../img/page-loader.gif) center center no-repeat;
 }
 .devider {
 	width: 100%;
@@ -1054,8 +1054,8 @@ p.subtitle {
 
 /* Button blank */
 .btn-blank {
-	border: 2px solid #fff;
-	color: #fff;
+	border: 2px solid #fba104;
+	color: #fba104;
 	padding: 8px 12px;
 	display: inline-block;
 	vertical-align: middle;
@@ -1079,7 +1079,7 @@ p.subtitle {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: #fff;
+	background: #fc9c03;
 	-webkit-transform: scaleY(0);
 	transform: scaleY(0);
 	-webkit-transform-origin: 50% 100%;
@@ -1092,7 +1092,7 @@ p.subtitle {
 	transition-timing-function: ease-out;
 }
 .btn-blank:hover, .btn-blank:focus, .btn-blank:active {
-	color: #333;
+	color: #f7f5f5;
 }
 .btn-blank:hover:before, .btn-blank:focus:before, .btn-blank:active:before {
 	-webkit-transform: scaleY(1);
