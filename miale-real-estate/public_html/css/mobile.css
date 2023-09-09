@@ -160,7 +160,7 @@
 
 	.navbar-toggle .icon-bar {
 		height: 5px;
-		padding-right:12px;
+		margin-right:1rem;
 	}
 	.navbar-default .navbar-toggle .icon-bar {
 		background-color: #ffaf02 !important;
@@ -184,7 +184,7 @@
 	}
 	.navbar-nav > li > a {
 		padding: 10px 0 !important;
-		color: #FFF;
+		color: #070707;
 	}
 	.navbar-nav .open .dropdown-menu > li > a {
 		padding: 10px 10px 10px 45px !important;
