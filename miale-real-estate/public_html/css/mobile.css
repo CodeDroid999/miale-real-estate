@@ -159,16 +159,17 @@
 	}
 
 	.navbar-toggle .icon-bar {
-		height: 3px;
+		height: 5px;
+		padding-right:12px;
 	}
 	.navbar-default .navbar-toggle .icon-bar {
-		background-color: #FFF !important;
+		background-color: #ffaf02 !important;
 	}
 	.navbar-transparent .navbar-toggle .icon-bar {
-		background-color: #FFF !important;
+		background-color: #ffaf02 !important;
 	}
 	.navbar-inverse .navbar-toggle .icon-bar {
-		background-color: #FFF !important;
+		background-color: #ffaf02 !important;
 	}
 
 	/* Navbar collapse / links */
