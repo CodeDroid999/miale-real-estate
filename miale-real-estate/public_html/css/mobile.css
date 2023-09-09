@@ -203,10 +203,10 @@
 
 	/* Navbar shrink toggle button */
 	.navbar-shrink .navbar-toggle .icon-bar {
-		background-color: #FFF !important;
+		background-color: #dddbdb !important;
 	}
 	.navbar-inverse.navbar-shrink .navbar-toggle .icon-bar {
-		background-color: #FFF !important;
+		background-color: #d4d0d0 !important;
 	}
 
 	/* Page */
