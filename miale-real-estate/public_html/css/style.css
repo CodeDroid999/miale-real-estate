@@ -419,6 +419,13 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 
 /* ===== Begin progress bar ===== */
 .skill-bar {
+	background-color: #f3ebeb;
+	border-radius: 10px;
+	display:flex;
+	justify-items: center;
+	align-items:center;
+	flex-direction: column;
+	padding:2rem;
 }
 .progress {
 	overflow: visible;
@@ -455,7 +462,12 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 }
 .progress-lebel h6{
 	margin-bottom: 10px;
+	margin-top:10px;
 	letter-spacing: 2px;
+}
+.progress-lebel p{
+	margin-bottom: 10px;
+	margin-top:10px;
 }
 /* ===== End progress bar ===== */
 
@@ -944,7 +956,7 @@ ul.imp-links li a {
 
 /* ===== Begin page header ===== */
 .page-header {
-	margin: 0 0 60px 0;
+	margin: 30px 0 20px 0;
 	padding: 0;
 	border: none;
 }
@@ -1097,6 +1109,14 @@ p.subtitle {
 .btn-blank:hover:before, .btn-blank:focus:before, .btn-blank:active:before {
 	-webkit-transform: scaleY(1);
 	transform: scaleY(1);
+}
+
+
+
+.our-skillo{
+	padding-top: 2rem;
+	padding-bottom:4rem;
+	background-color: #f79e05;
 }
 
 /* Button active */
