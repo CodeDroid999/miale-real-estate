@@ -276,6 +276,18 @@ section {
 #text-carousel-intro-section .container {
 	height: 100%;
 }
+
+/**in about page **/
+#abt-text-carousel-intro-section {
+	height: 50%;
+	display: flex;
+	align-items: end;
+}
+#abt-text-carousel-intro-section .container {
+	height:50%;
+}
+
+
 #text-carousel-intro-section .caption {
 	position: relative;
 	top: 50%;
