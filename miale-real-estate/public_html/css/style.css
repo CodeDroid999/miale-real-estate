@@ -246,6 +246,18 @@ section {
 	padding-top: 24px;
 	padding-bottom: 24px;
 }
+.navbar-default.navbar-fixed-top.navbar-shrink .navbar-nav > li > a:hover {
+    color: #f49a09 !important; /* Hover text color */
+	 transform: scale(1.05); /* Grow text on hover */
+    text-decoration: underline; /* Underline text on hover */
+    transition: all 0.3s ease; /* Add a smooth transition effect */
+}
+.navbar-default.navbar-fixed-top.navbar-shrink .navbar-nav > li > a.active {
+    color: #f49a09 !important; /* Hover text color */
+	 transform: scale(1.05); /* Grow text on hover */
+    text-decoration: underline; /* Underline text on hover */
+    transition: all 0.3s ease; /* Add a smooth transition effect */
+}
 
 /* Navbar transparent */
 .navbar-transparent {

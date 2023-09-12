@@ -194,3 +194,20 @@ $(document).on('click','.navbar-collapse.in',function(e) {
         $(this).collapse('hide');
     }
 });
+
+
+// Get the current page URL or identifier
+var currentPage = window.location.pathname;
+
+// Remove the leading '/' character if present
+currentPage = currentPage.startsWith("/") ? currentPage.slice(1) : currentPage;
+
+// Get all elements with the "nav-link" id
+var elementsWithNavLinkId = document.querySelectorAll('[id="nav-link"]');
+
+// Loop through the elements and add the 'active' class if the href matches the current page
+elementsWithNavLinkId.forEach(function(element) {
+    if (element.getAttribute("href") === currentPage) {
+        element.classList.add("active");
+    }
+});
