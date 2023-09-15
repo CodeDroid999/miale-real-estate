@@ -689,13 +689,10 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	width: 120px;
 	height: 120px;
 	background: transparent;
-	-ms-transform: rotate(45deg);
-	-webkit-transform: rotate(45deg);
-	transform: rotate(45deg);
 	margin: 0 auto;
 	position: relative;
 	top: 25px;
-	box-shadow: 0 0 0 6px #FFFFFF, 0 0 0 7px #dadbdb;
+	box-shadow: 0 0 0 6px #FFFFFF, 0 0 0 7px #2c2e2e;
 	overflow: hidden;
 }
 .team-item img {
@@ -707,10 +704,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 	margin-top: 0;
 }
 .team-triangle .content {
-	-ms-transform: rotate(-45deg);
-	-webkit-transform: rotate(-45deg);
-	transform: rotate(-45deg);
-	top: -35px;
+	top: -5px;
 	position: absolute;
 	left: -37px;
 	width: 190px;
